@@ -6,8 +6,8 @@ date_joined
 rating
 
 type User struct {
-	юзернейм
-	дата регистрации
+	username String
+	signUpDate String
 }
 
 User.getCourses()

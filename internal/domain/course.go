@@ -3,14 +3,14 @@ package domain
 обучения в user.go, здесь учеников прошедших курс и обучающихся не хранить
 
 type Course struct {
-	айди
-	название
-	категория
-	уроки
-	сколько прошло курс
-	сколько проходит курс
-	рейтинг ?/10
-	дата создания
+	courseId int64
+	title String
+	category String
+	lessons String[]
+	finishedCount int64
+	inProgressCount int64
+	rating flout
+	creationDate String
 }
 
 Course.getAuthors() []User
